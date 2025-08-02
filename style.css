@@ -93,6 +93,7 @@ body {
 #file-tree-list .js::before { content: 'JS'; color: orange; background-color: #55452d; padding: 1px 4px; border-radius: 4px; margin-right: 8px; font-size: 10px; font-weight: bold; }
 #file-tree-list .css::before { content: '#'; color: #569cd6; margin-right: 8px; font-weight: bold; }
 #file-tree-list .html::before { content: '<>'; color: #e34c26; margin-right: 8px; font-weight: bold; }
+#file-tree-list .py::before { content: '🐍'; margin-right: 8px; } 
 #file-tree-list .directory .item-name-wrapper::before { content: '📁'; margin-right: 8px; }
 .placeholder-text { padding: 10px; color: var(--text-color-secondary); font-style: italic; }
 
