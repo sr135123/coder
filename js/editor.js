@@ -265,7 +265,7 @@ export async function saveActiveFile() {
 
 function getLanguage(fileName) {
     const ext = fileName.split('.').pop().toLowerCase();
-    const langMap = { js: 'javascript', ts: 'typescript', css: 'css', html: 'html', json: 'json', md: 'markdown' };
+    const langMap = { js: 'javascript', ts: 'typescript', css: 'css', html: 'html', json: 'json', md: 'markdown', py: 'python' };
     return langMap[ext] || 'plaintext';
 }
 
